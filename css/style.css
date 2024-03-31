@@ -1320,8 +1320,10 @@ header a.logo img {
     left: 0;
 }
 
-.quiz-app {
-    height: 300px;
+.port-img img {
+    align-items: center;
+    height: 262.5px;
+    width: 350px;
 }
 
 .cases-image-inner {
