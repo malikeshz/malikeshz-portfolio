@@ -1429,7 +1429,15 @@ header a.logo img {
 .testimonial-img img {
     display: inline-block;
 }
-
+.testimonial-img {
+    position: relative;
+    left: 39%;
+    overflow: hidden;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid yellow;
+}
 
 .testimonial-owl .owl-item img {
     width: 100px;
@@ -1458,6 +1466,8 @@ header a.logo img {
     margin-top: 40px !important;
     text-align: center;
 }
+
+
 
 .testimonial-owl .owl-nav button.owl-next, .testimonial-owl .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
     height: 8px;
