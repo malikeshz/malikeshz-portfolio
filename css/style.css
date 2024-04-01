@@ -1427,11 +1427,9 @@ header a.logo img {
 }
 
 .testimonial-img img {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
     display: inline-block;
 }
+
 
 .testimonial-owl .owl-item img {
     width: 100px;
@@ -2007,6 +2005,45 @@ and (orientation: portrait) {
         }
       }
 }
+
+@media (width <= 281px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    .slider-image img {
+        top: -35px;
+        left: -25px;
+    }
+    
+    .slider-content {
+        align-items: center;
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
+    }
+    .slider-image {
+        top: auto;
+        border-radius: 50%;
+        width: 20px;
+        height: 50px;
+        overflow: hidden;
+        margin-bottom: 20px;
+
+        border: 3px solid #ffd700;
+        box-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700;
+        animation: glow 1.5s infinite alternate;
+      }
+      
+      @keyframes glow {
+        0% {
+          box-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700, 0 0 20px #ffd700;
+        }
+        100% {
+          box-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700;
+        }
+      }
+    }
+
 @media (width <= 425px) {
     .row {
         flex-direction: column-reverse;
@@ -2027,9 +2064,9 @@ and (orientation: portrait) {
         overflow: hidden;
         margin-bottom: 20px;
 
-        border: 3px solid #ffd700; /* Set the border style */
-        box-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700; /* Create the neon glow effect */
-        animation: glow 1.5s infinite alternate; /* Add animation for pulsating effect */
+        border: 3px solid #ffd700;
+        box-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700;
+        animation: glow 1.5s infinite alternate;
       }
       
       @keyframes glow {
