@@ -1286,11 +1286,14 @@ header a.logo img {
     top: 0;
     left: 0;
 }
-
-.port-img img {
-    align-items: center;
+.port-img {
     height: 262.5px;
     width: 350px;
+}
+.port-img img {
+    height: 262.5px;
+    width: 350px;
+    
 }
 
 .cases-image-inner {
@@ -2057,7 +2060,7 @@ and (orientation: portrait) {
       }
     }
 
-@media (width <= 425px) {
+@media (width <= 445px) {
     .row1,
     .row {
         flex-direction: column-reverse;
