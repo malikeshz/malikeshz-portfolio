@@ -649,6 +649,7 @@ header a.logo img {
 .content-para {
     padding-right: 220px;
     line-height: 30px;
+    margin-bottom: 10px;
 }
 
 .slider-copyright {
@@ -1982,7 +1983,8 @@ and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: portrait) {
     
-    .row {
+    .row1,
+    .row1 {
         flex-direction: column-reverse;
     }
     .slider-image img {
@@ -2017,6 +2019,7 @@ and (orientation: portrait) {
 }
 
 @media (width <= 281px) {
+    .row1,
     .row {
         flex-direction: column-reverse;
     }
@@ -2055,6 +2058,7 @@ and (orientation: portrait) {
     }
 
 @media (width <= 425px) {
+    .row1,
     .row {
         flex-direction: column-reverse;
     }
@@ -2076,7 +2080,7 @@ and (orientation: portrait) {
 
         border: 3px solid #ffd700;
         box-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700;
-        animation: glow 1.5s infinite alternate;
+        animation: glow 1.0s infinite alternate;
       }
       
       @keyframes glow {
@@ -2086,5 +2090,8 @@ and (orientation: portrait) {
         100% {
           box-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700;
         }
+      }
+      .contact-btn {
+
       }
 }
