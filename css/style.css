@@ -668,36 +668,6 @@ header a.logo img {
     z-index: 1111;
 }
 
-.circle-one {
-    position: absolute;
-    top: 28%;
-    left: 47%;
-}
-
-.circle-two {
-    top: 14%;
-    left: 68%;
-    position: absolute;
-}
-
-.circle-three {
-    top: 38%;
-    left: 84%;
-    position: absolute;
-}
-
-.circle-four {
-    top: 80%;
-    left: 70%;
-    position: absolute;
-}
-
-.circle-five {
-    top: 86%;
-    left: 55%;
-    position: absolute;
-}
-
 .animated-circle {
     background-color: transparent;
     border: none;
@@ -1567,28 +1537,23 @@ header a.logo img {
     height: 200px;
 }
 
-@keyframes animation {
-    0% {
-        stroke-dasharray: 1,98;
-        stroke-dashoffset: -105;
+@keyframes scale-animation {
+    0%, 100% {
+        transform: scale(1);
     }
     50% {
-        stroke-dasharray: 80,10;
-        stroke-dashoffset: -160;
-    }
-    100% {
-        stroke-dasharray: 1,98;
-        stroke-dashoffset: -300;
+        transform: scale(1.2);
     }
 }
 
 #spinner {
     transform-origin: center;
-    animation-name: animation;
-    animation-duration: 1.2s;
-    animation-timing-function: cubic-bezier(1.0, 0.4, 0.4, 1.0);
+    animation-name: scale-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
+
 @media (min-width: 1800px) {
     /* Side Nav */
     .side-nav .navbar-nav .nav-item {
@@ -1809,9 +1774,7 @@ header a.logo img {
     .side-menu .side-nav .navbar-nav li a {
         font-size: 22px;
     }
-    .mega-logo {
-        top: 20px;
-    }
+    
     .sidebar_btn .btn {
         font-size: 12px;
     }
