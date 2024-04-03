@@ -1387,14 +1387,12 @@ header a.logo img {
     display: inline-block;
 }
 .testimonial-img {
-    /* position: relative;
-    left: 39%; */
-    align-self: center;
     overflow: hidden;
     border-radius: 50px;
     width: 100px;
     height: 100px;
     border: 2px solid #dabd1d;
+    margin: 0 auto;
 }
 
 .testimonial-owl .owl-item img {
@@ -1584,9 +1582,6 @@ header a.logo img {
     }
     .cd-horizontal-timeline .events-content {
         margin: 0;
-    }
-    .cd-timeline-navigation {
-        display: none;
     }
 
     /* Portfolio */

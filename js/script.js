@@ -244,6 +244,11 @@ jQuery(function ($) {
         dropRadius: 20,
         perturbance: 0.04,
     });
+    $('.timeline-bg').ripples({
+        resolution: 512,
+        dropRadius: 20,
+        perturbance: 0.04,
+    });
     
 
 /*===================================
@@ -252,19 +257,19 @@ jQuery(function ($) {
 
 
     TweenMax.from(".content-para", 2, {
-        delay: 4,
+        delay: 3,
         opacity: 0,
         y: 20,
         ease: Expo.easeInOut
     })
     
 
-    TweenMax.from(".slider-copyright", 2, {
-        delay: 4.5,
-        opacity: 0,
-        y: 20,
-        ease: Expo.easeInOut
-    })
+    // TweenMax.from(".slider-copyright", 2, {
+    //     delay: 4.5,
+    //     opacity: 0,
+    //     y: 20,
+    //     ease: Expo.easeInOut
+    // })
 
     TweenMax.staggerFrom(".slider-footer ul li", 1.5, {
         delay: 5,
