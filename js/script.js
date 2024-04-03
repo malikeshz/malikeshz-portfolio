@@ -223,15 +223,6 @@ jQuery(function ($) {
 
 
 
-
-
-
-
-
-
-
-
-
 /*===================================
         animation
     ====================================== */
@@ -249,27 +240,10 @@ jQuery(function ($) {
     });
     
 
-
-    
-
-
-
-
-
 /*===================================
         animation
     ====================================== */
 
-
-    
-    
-    
-    TweenMax.from(".main-font span", 2, {
-        delay: 2,
-        opacity: 0,
-        y: 60,
-        ease: Expo.easeInOut
-    })
 
     TweenMax.from(".content-para", 2, {
         delay: 4,

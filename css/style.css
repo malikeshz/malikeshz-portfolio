@@ -205,7 +205,9 @@ header a.logo img {
     position: fixed;
     right: 0;
     top: 0;
-    background: #171717;
+    background-image: url(../img/menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 9999;
     height: 100vh;
     -webkit-transform: translate3d(0, -100%, 0);
@@ -307,26 +309,7 @@ header a.logo img {
     animation: .8s rotate;
 }
 
-@-webkit-keyframes rotate {
-    from{
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    to{
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-@keyframes rotates {
-    from{
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    to{
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
+
 
 .sidemenu_btn {
     -webkit-transition: all .3s linear;
@@ -1188,7 +1171,7 @@ header a.logo img {
 ====================================== */
 
 .portfolio-bg{
-    background-image: url("../img/timeline.jpg");
+    background-image: url("../img/portfolio.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1404,13 +1387,14 @@ header a.logo img {
     display: inline-block;
 }
 .testimonial-img {
-    position: relative;
-    left: 39%;
+    /* position: relative;
+    left: 39%; */
+    align-self: center;
     overflow: hidden;
     border-radius: 50px;
     width: 100px;
     height: 100px;
-    border: 2px solid yellow;
+    border: 2px solid #dabd1d;
 }
 
 .testimonial-owl .owl-item img {
@@ -1939,6 +1923,9 @@ header a.logo img {
 @media (max-width: 320px) {
     .side-menu .inner-wrapper {
         padding: 2rem 3rem;
+        background-image: url(../img/menu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
@@ -1949,9 +1936,13 @@ and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: portrait) {
     
-    .row1,
-    .row1 {
+    #row {
         flex-direction: column-reverse;
+    }
+    .side-menu .inner-wrapper {
+        background-image: url(../img/menu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .slider-image img {
         top: -35px;
@@ -1985,8 +1976,7 @@ and (orientation: portrait) {
 }
 
 @media (width <= 281px) {
-    .row1,
-    .row {
+    #row {
         flex-direction: column-reverse;
     }
     .slider-image img {
@@ -2024,8 +2014,7 @@ and (orientation: portrait) {
     }
 
 @media (width <= 445px) {
-    .row1,
-    .row {
+    #row {
         flex-direction: column-reverse;
     }
     .slider-image img {
