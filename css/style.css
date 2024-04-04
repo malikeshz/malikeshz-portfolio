@@ -1377,7 +1377,7 @@ header a.logo img {
 ====================================== */
 
 .testimonial-bg{
-    background-image: url("../img/testimonial-bg.jpg");
+    background-image: url("../img/testimonial-bg.png");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1986,6 +1986,7 @@ and (orientation: portrait) {
         margin-top: 20px;
     }
     .slider-image {
+
         top: auto;
         border-radius: 50%;
         width: 20px;
@@ -2023,8 +2024,8 @@ and (orientation: portrait) {
     .slider-image {
         top: auto;
         border-radius: 50%;
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         overflow: hidden;
         margin-bottom: 20px;
 
@@ -2040,8 +2041,5 @@ and (orientation: portrait) {
         100% {
           box-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700;
         }
-      }
-      .contact-btn {
-
       }
 }
