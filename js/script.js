@@ -106,17 +106,17 @@ jQuery(function ($) {
     //     return false;
     // });
 
-    // $(".scroll").on("click", function (event) {
-    //     event.preventDefault();
-    //     $("html,body").animate({
-    //         scrollTop: $(this.hash).offset().top - 60}, 1200);
-    // });
+    $(".scroll").on("click", function (event) {
+        event.preventDefault();
+        $("html,body").animate({
+            scrollTop: $(this.hash).offset().top - 60}, 1200);
+    });
 
-    // $(".slider-btn").on("click", function (event) {
-    //     event.preventDefault();
-    //     $("html,body").animate({
-    //         scrollTop: $(this.hash).offset().top - 60}, 1200);
-    // });
+    $(".slider-btn").on("click", function (event) {
+        event.preventDefault();
+        $("html,body").animate({
+            scrollTop: $(this.hash).offset().top - 60}, 1200);
+    });
 
     /* ===================================
         Side Menu
