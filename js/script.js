@@ -66,9 +66,8 @@ $(window).on("load", function () {
         });
     }
 
-    /* ===================================
-               Loading Timeout
-        ====================================== */
+
+            //    Loading Timeout
 
     $('.side-menu').removeClass('hidden');
 
@@ -77,7 +76,6 @@ $(window).on("load", function () {
 
     }, 1500);
 
-    // $('.navbar-collapse .navbar-nav .nav-link:nth-child(1)').addClass('active');
     $('.navbar-collapse .navbar-nav .nav-link:nth-child(2)').removeClass('active');
 });
 
@@ -103,22 +101,22 @@ jQuery(function ($) {
     });
 
     //Click event to scroll to top
-    $(document).on('click', '.scroll-top-arrow', function () {
-        $('html, body').animate({scrollTop: 0}, 800);
-        return false;
-    });
+    // $(document).on('click', '.scroll-top-arrow', function () {
+    //     $('html, body').animate({scrollTop: 0}, 800);
+    //     return false;
+    // });
 
-    $(".scroll").on("click", function (event) {
-        event.preventDefault();
-        $("html,body").animate({
-            scrollTop: $(this.hash).offset().top - 60}, 1200);
-    });
+    // $(".scroll").on("click", function (event) {
+    //     event.preventDefault();
+    //     $("html,body").animate({
+    //         scrollTop: $(this.hash).offset().top - 60}, 1200);
+    // });
 
-    $(".slider-btn").on("click", function (event) {
-        event.preventDefault();
-        $("html,body").animate({
-            scrollTop: $(this.hash).offset().top - 60}, 1200);
-    });
+    // $(".slider-btn").on("click", function (event) {
+    //     event.preventDefault();
+    //     $("html,body").animate({
+    //         scrollTop: $(this.hash).offset().top - 60}, 1200);
+    // });
 
     /* ===================================
         Side Menu
@@ -151,11 +149,11 @@ jQuery(function ($) {
         Fancy Box
    ====================================== */
 
-    $('[data-fancybox]').fancybox({
-        protect: true,
-        animationEffect: "fade",
-        hash: null,
-    });
+    // $('[data-fancybox]').fancybox({
+    //     protect: true,
+    //     animationEffect: "fade",
+    //     hash: null,
+    // });
 
     /*===================================
         Owl Carousel
@@ -235,6 +233,11 @@ jQuery(function ($) {
 
 
     $('.portfolio-bg').ripples({
+        resolution: 512,
+        dropRadius: 20,
+        perturbance: 0.04,
+    });
+    $('.skills').ripples({
         resolution: 512,
         dropRadius: 20,
         perturbance: 0.04,
