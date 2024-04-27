@@ -69,54 +69,54 @@ $(window).on("load", function () {
 
             //    Loading Timeout
 
-    $('.side-menu').removeClass('hidden');
+//     $('.side-menu').removeClass('hidden');
 
-    setTimeout(function(){
-        $('.loader-bg').fadeToggle();
+//     setTimeout(function(){
+//         $('.loader-bg').fadeToggle();
 
-    }, 1500);
+//     }, 1500);
 
-    $('.navbar-collapse .navbar-nav .nav-link:nth-child(2)').removeClass('active');
-});
+//     $('.navbar-collapse .navbar-nav .nav-link:nth-child(2)').removeClass('active');
+// });
 
-jQuery(function ($) {
+// jQuery(function ($) {
 
-    "use strict";
+//     "use strict";
 
-    $(window).on('scroll', function () {
-        if ($(this).scrollTop() > 260) { // Set position from top to add class
-            $('header').addClass('header-appear');
-        }
-        else {
-            $('header').removeClass('header-appear');
-        }
-    });
+//     $(window).on('scroll', function () {
+//         if ($(this).scrollTop() > 260) { // Set position from top to add class
+//             $('header').addClass('header-appear');
+//         }
+//         else {
+//             $('header').removeClass('header-appear');
+//         }
+//     });
 
-    //scroll to appear
-    $(window).on('scroll', function () {
-        if ($(this).scrollTop() > 500)
-            $('.scroll-top-arrow').fadeIn('slow');
-        else
-            $('.scroll-top-arrow').fadeOut('slow');
-    });
+//     //scroll to appear
+//     $(window).on('scroll', function () {
+//         if ($(this).scrollTop() > 500)
+//             $('.scroll-top-arrow').fadeIn('slow');
+//         else
+//             $('.scroll-top-arrow').fadeOut('slow');
+//     });
 
-    //Click event to scroll to top
-    // $(document).on('click', '.scroll-top-arrow', function () {
-    //     $('html, body').animate({scrollTop: 0}, 800);
-    //     return false;
-    // });
+//     //Click event to scroll to top
+//     // $(document).on('click', '.scroll-top-arrow', function () {
+//     //     $('html, body').animate({scrollTop: 0}, 800);
+//     //     return false;
+//     // });
 
-    $(".scroll").on("click", function (event) {
-        event.preventDefault();
-        $("html,body").animate({
-            scrollTop: $(this.hash).offset().top - 60}, 1200);
-    });
+//     $(".scroll").on("click", function (event) {
+//         event.preventDefault();
+//         $("html,body").animate({
+//             scrollTop: $(this.hash).offset().top - 60}, 1200);
+//     });
 
-    $(".slider-btn").on("click", function (event) {
-        event.preventDefault();
-        $("html,body").animate({
-            scrollTop: $(this.hash).offset().top - 60}, 1200);
-    });
+//     $(".slider-btn").on("click", function (event) {
+//         event.preventDefault();
+//         $("html,body").animate({
+//             scrollTop: $(this.hash).offset().top - 60}, 1200);
+//     });
 
     /* ===================================
         Side Menu

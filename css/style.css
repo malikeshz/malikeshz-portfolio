@@ -1499,7 +1499,7 @@ header a.logo img {
    Loader
 ====================================== */
 
-.loader-bg {
+/* .loader-bg {
     position: fixed;
     z-index: 99999;
     background-color: #171717;
@@ -1526,7 +1526,7 @@ header a.logo img {
     50% {
         transform: scale(1.2);
     }
-}
+} */
 
 #spinner {
     transform-origin: center;
