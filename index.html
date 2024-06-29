@@ -661,7 +661,8 @@
                     <p class="py-2 alt-font">I am available all the time for any project acording to my skills.</p>
                 </div>
             </div>
-            <form class="contact-form" id="contact-form-data">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" id="contact-form-data">
+                <input type="hidden" name="access_key" value="69359f25-dad9-47a3-9ae5-e31e826c29a3">
                 <div class="row pt-3">
                     <!-- Submission Popup -->
                     <div class="col-12">
@@ -670,27 +671,27 @@
                     <!--Left Column-->
                     <div class="col-md-4">
                         <div class="form-group">
-                            <input class="form-control" type="text" placeholder="Name" required="" id="first_name" name="firstName">
+                            <input class="form-control" type="text" placeholder="Name" required="" id="first_name" name="name">
                         </div>
 
                         <div class="form-group">
-                            <input class="form-control" type="tel" placeholder="Contact No" id="phone" name="userPhone">
+                            <input class="form-control" type="tel" placeholder="Contact No" id="phone" name="name">
                         </div>
 
                         <div class="form-group">
-                            <input class="form-control" type="email" placeholder="Email" required="" id="email" name="userEmail">
+                            <input class="form-control" type="email" placeholder="Email" id="email" name="email" required>
                         </div>
                     </div>
                     <!--Right Column-->
                     <div class="col-12 col-md-6 offset-md-1 contact-form">
                         <div class="form-group">
-                            <textarea class="form-control" placeholder="Type Your Message Here" id="message" name="userMessage"></textarea>
+                            <textarea class="form-control" placeholder="Type Your Message Here" id="message" name="message" required></textarea>
                         </div>
                     </div>
                     <!-- Button -->
                     <div class="col-12 px-md-0">
                         <div class="contact-btn pt-5 text-center text-lg-left">
-                            <button type="button" class="btn btn-medium btn-rounded btn-yellow text-capitalize contact_btn">Contact Now</button>
+                            <button type="submit" class="btn btn-medium btn-rounded btn-yellow text-capitalize contact_btn">Contact Now</button>
                         </div>
                     </div>
                 </div>
