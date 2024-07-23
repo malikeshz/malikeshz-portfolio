@@ -1171,6 +1171,7 @@ header a.logo img {
 ====================================== */
 
 .portfolio-bg{
+    background-color: #171717;
     background-image: url("../img/portfolio.jpg");
     height: 100vh;
     background-repeat: no-repeat;
@@ -1550,27 +1551,7 @@ header a.logo img {
     .content-para {
         padding-right: 120px;
     }
-    .circle-one {
-        top: 24%;
-        left: 48%;
-    }
-    .circle-two {
-        top: 12%;
-        left: 70%;
-    }
-    .circle-three {
-        top: 30%;
-        left: 88%;
-    }
-    .circle-four {
-        top: 86%;
-        left: 76%;
-    }
-    .circle-five {
-        top: 90%;
-        left: 55%;
-    }
-
+   
     /* Skills */
     .skill-box {
         padding-top: 0!important;
@@ -1616,26 +1597,7 @@ header a.logo img {
     .content-para {
         padding-right: 120px;
     }
-    .circle-one {
-        top: 24%;
-        left: 48%;
-    }
-    .circle-two {
-        top: 12%;
-        left: 70%;
-    }
-    .circle-three {
-        top: 30%;
-        left: 88%;
-    }
-    .circle-four {
-        top: 82%;
-        left: 80%;
-    }
-    .circle-five {
-        top: 90%;
-        left: 55%;
-    }
+   
 
     /* Skills */
     .skill-box {
@@ -1706,27 +1668,7 @@ header a.logo img {
     .content-para {
         padding-right: 50px;
     }
-    .circle-one {
-        top: 30%;
-        left: 44%;
-    }
-    .circle-two {
-        top: 20%;
-        left: 68%;
-    }
-    .circle-three {
-        top: 34%;
-        left: 86%;
-    }
-    .circle-four {
-        top: 71%;
-        left: 82%;
-    }
-    .circle-five {
-        top: 76%;
-        left: 54%;
-    }
-
+    
     /* Skills */
     .bars-section {
         padding-right: 20px!important;
@@ -1884,9 +1826,7 @@ header a.logo img {
     .portfolio-content {
         text-align: center;
     }
-    .circle {
-        display: none;
-    }
+
 
     /* Testimonials */
     .paragraph {
