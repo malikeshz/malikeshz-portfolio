@@ -233,22 +233,22 @@ jQuery(function ($) {
 
 
     $('.portfolio-bg').ripples({
-        resolution: 512,
+        resolution: 300,
         dropRadius: 20,
         perturbance: 0.04,
     });
     $('.skills').ripples({
-        resolution: 512,
+        resolution: 300,
         dropRadius: 20,
         perturbance: 0.04,
     });
     $('.contact-bg').ripples({
-        resolution: 512,
+        resolution: 300,
         dropRadius: 20,
         perturbance: 0.04,
     });
     $('.timeline-bg').ripples({
-        resolution: 512,
+        resolution: 300,
         dropRadius: 20,
         perturbance: 0.04,
     });
